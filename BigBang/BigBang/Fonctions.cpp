@@ -59,5 +59,5 @@ void Planet::showPlanet(int index)
 	}
 
 	// Cout Planet
-	cout << to_string(index + 1) + " - " + typePlanet + ", " + to_string(this->rayon) + "km, " + to_string(this->constGravity) + "m/s2" << endl;
+	cout << to_string(index + 1) + " - " + typePlanet + " Planet, " + to_string(this->rayon) + "km, " + to_string(this->constGravity) + "m/s2" << endl;
 }
