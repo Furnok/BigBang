@@ -128,6 +128,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="BigBang.cpp" />
+    <ClCompile Include="Fonctions.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BigBang.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
